@@ -1,0 +1,33 @@
+.gradient-background {
+    background: linear-gradient(300deg, rgb(146, 183, 214), #003f8b, #085acc);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+body{
+    text-align: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+.comp{
+    color: lime;
+}
+#happy{
+    align-items: center;
+    justify-content: center;
+}
